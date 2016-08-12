@@ -1,0 +1,42 @@
+@charset "UTF-8";
+/**
+ * @name: mixin sprites
+ * @author: chenrunsheng
+*/
+$rate: 320/640;
+@mixin mixin-background($width, $height) {
+  background-size: 100% 100%;
+  @extend %inline-block;
+  width: $width*$rate;
+  @include height(true, $height*$rate, $height*$rate);
+}
+
+/* icons */
+.icon_go_back{
+  background: url(../images/icons/mixin-icons/back.png) no-repeat;
+  @include mixin-background(18px, 30px);
+}
+
+
+
+
+
+
+/**
+ * @name: compass sprites
+ * @author: chenrunsheng
+*/
+//@import "compass/utilities/sprites";
+//$disable-magic-sprite-selectors:false;
+//$sprites-map-clear-up:true;
+//$sprites-map-spacing:15px;
+//$sprites-map-repeat:no-repeat;
+//$sprites-map-layout: smart;
+//$sprites-map-sprite-dimensions: true;
+//$sprites-map-clear-up:true;
+//@import "icons/sprites-map/*.png";
+
+//.icon_welfare{
+//  @include sprites-map-sprite(welfare);
+//  @extend %inline-block;
+//}

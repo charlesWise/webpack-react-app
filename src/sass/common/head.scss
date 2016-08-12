@@ -1,0 +1,6 @@
+@charset "UTF-8";
+.header{
+    width: 100%;
+    @include height(true, 3.3rem, 3.3rem);
+    background: #FF0000;
+}

@@ -1,12 +1,16 @@
+/**
+ * Created by chenrs on 2016/8/10.
+ */
 'use strict';
-// Import CSS
-import './sass/master.scss';
+// Import global.scss file
+import './sass/global.scss';
 
 // Import React and JS
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import HelloBox from './js/HelloBox';
+// Import Index
+import Index from './components/pages/Index/Index';
 
-// Render!
-ReactDOM.render(<HelloBox />, document.getElementById('app'));
+// ReactDOM.render
+ReactDOM.render(<Index />, document.getElementById('app'));

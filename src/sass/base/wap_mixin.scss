@@ -1,0 +1,10 @@
+@charset "UTF-8";
+//高度与行高的配置
+@mixin height($extend: true, $height: auto, $lineHight: auto){
+  @if($extend){
+    height:$height;
+    line-height: $lineHight;
+  } @else{
+    height:$height;
+  }
+}
