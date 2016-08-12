@@ -1,3 +1,4 @@
+'use strict';
 // Import React
 import React from 'react';
 
@@ -5,9 +6,12 @@ import React from 'react';
 export default class HelloText extends React.Component {
     constructor(props) {
         super(props);
+        this.state = {
+            myName: 'chenrunsheng'
+        };
     }
 
     render() {
-        return <p>Hello, {this.props.name}!</p>
+        return <p>Hello, {this.props.name}! my is {this.state.myName}.</p>
     }
 }

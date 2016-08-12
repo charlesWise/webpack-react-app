@@ -1,3 +1,4 @@
+'use strict';
 // Import React and HelloText class
 import React from 'react';
 import HelloText from './HelloText';
@@ -10,7 +11,7 @@ export default class HelloBox extends React.Component {
 
     render() {
         return <div>
-            <HelloText name="chenrs" />
+            <HelloText name="webpack react es6" />
         </div>
     }
 }

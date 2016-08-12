@@ -1,5 +1,5 @@
 module.exports = {
-    entry: getEntrySources(['./src/js/entry.js']),
+    entry: getEntrySources(['./src/app.js']),
     output: {
         publicPath: 'http://localhost:8080/',
         filename: 'build/bundle.js'
@@ -8,7 +8,7 @@ module.exports = {
     module: {
         preLoaders: [
             {
-                test: /\.jsx?$/,
+                test: /\.js(x)?$/,
                 exclude: /(node_modules|bower_components)/,
                 loader: 'source-map'
             }
@@ -32,7 +32,7 @@ module.exports = {
                 ]
             },
             {
-                test: /\.jsx?$/,
+                test: /\.js(x)?$/,
                 exclude: /(node_modules|bower_components)/,
                 loaders: [
                     'react-hot',
@@ -48,6 +48,5 @@ function getEntrySources(sources) {
         sources.push('webpack-dev-server/client?http://localhost:8080');
         sources.push('webpack/hot/only-dev-server');
     }
-
     return sources;
 }
