@@ -8,15 +8,14 @@ import Head from '../../common/head';
 
 // Create class called Index that extends the base React Component class
 class Index extends React.Component {
-    constructor(props) {
-        super(props);
+    constructor(...props) {
+        super(...props);
     }
-
     render() {
         return (
-            <div>
-                <Head name="首页" />
-            </div>
+            <section>
+                <Head name="首页" title="Head Component Class"/>
+            </section>
         )
     }
 }

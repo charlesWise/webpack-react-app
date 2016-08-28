@@ -36,10 +36,19 @@ module.exports = {
                 exclude: /(node_modules|bower_components)/,
                 loaders: [
                     'react-hot',
-                    'babel?presets[]=stage-0,presets[]=react,presets[]=es2015'
+                    'babel'
                 ]
             }
         ]
+    },
+    resolve: {
+        extensions: ["", ".js", ".jsx", ".scss"]
+    },
+    devServer: {
+        hot: true,
+        progress: true,
+        colors: true,
+        inline: true
     }
 };
 

@@ -3,7 +3,7 @@
  */
 'use strict';
 // Import global.scss file
-import './sass/global.scss';
+import './sass/global';
 
 // Import React and JS
 import React from 'react';

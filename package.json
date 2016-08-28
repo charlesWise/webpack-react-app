@@ -5,9 +5,8 @@
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "webpack-server": "webpack-dev-server --hot --progress --colors",
-    "web-server": "http-server -p 3000 .",
-    "start": "npm run webpack-server | npm run web-server"
+    "webpack-server": "webpack-dev-server --hot --progress --colors --inline",
+    "start": "npm run webpack-server"
   },
   "keywords": [
     "webpack-react-app"
