@@ -2,6 +2,10 @@
  * Created by chenrs on 2016/8/10.
  */
 'use strict';
+
+// Import font-awesome-webpack file
+import 'font-awesome-webpack';
+
 // Import global.scss file
 import './sass/global';
 

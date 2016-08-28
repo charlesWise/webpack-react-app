@@ -7,24 +7,18 @@ import React from 'react';
 
 // Create class called Head that extends the base React Component class
 
-let myAge = 18;
 class Head extends React.Component {
     constructor(...props) {
         super(...props);
-        this.state = {
-            myName: this.props.title
-        };
+        this.state = {};
     }
-    _handleClick() {
-        this.setState({
-            myName: 'creat react component'
-        })
-    }
+
     render() {
         return (
-            <section className="header">
-                <div onClick={this._handleClick.bind(this)}><i className="icon_go_back"></i>
-                    <span>{this.props.name}--{this.state.myName}--{myAge}</span>
+            <section className="headerWrap">
+                <div className="header">
+                    <div className="logo"><img src="src/images/head/logo.png" alt=""/></div>
+                    <div className="pullDownMore"><i className="fa fa-list"></i></div>
                 </div>
             </section>
         )

@@ -13,6 +13,7 @@
   ],
   "author": "Chenrs",
   "devDependencies": {
+    "FontAwesome-webpack": "0.0.2",
     "autoprefixer-loader": "^3.1.0",
     "babel-core": "^6.3.21",
     "babel-loader": "^6.2.0",
@@ -21,6 +22,7 @@
     "babel-preset-stage-0": "^6.3.13",
     "css-loader": "^0.23.0",
     "file-loader": "^0.8.4",
+    "font-awesome": "^4.6.3",
     "http-server": "^0.8.0",
     "img-loader": "^1.2.0",
     "node-sass": "^3.2.0",

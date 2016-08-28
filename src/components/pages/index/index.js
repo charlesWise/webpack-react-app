@@ -14,7 +14,7 @@ class Index extends React.Component {
     render() {
         return (
             <section>
-                <Head name="首页" title="Head Component Class"/>
+                <Head />
             </section>
         )
     }
