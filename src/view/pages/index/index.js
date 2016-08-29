@@ -5,6 +5,7 @@
 // Import React
 import React from 'react';
 import Head from '../../common/head';
+import DownApp from './components/downApp';
 
 // Create class called Index that extends the base React Component class
 class Index extends React.Component {
@@ -15,6 +16,7 @@ class Index extends React.Component {
         return (
             <section>
                 <Head />
+                <DownApp />
             </section>
         )
     }

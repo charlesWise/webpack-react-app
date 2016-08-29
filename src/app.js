@@ -14,7 +14,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 // Import Index
-import Index from './components/pages/Index/Index';
+import Index from './view/pages/Index/Index';
 
 // ReactDOM.render
 ReactDOM.render(<Index />, document.getElementById('app'));
