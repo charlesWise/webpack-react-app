@@ -1,9 +1,55 @@
 @charset "UTF-8";
 .downAppWrap{
   width: 100%;
-  .downApp{
-    img{
-      width: 100%;
+  padding: 0.75rem 0;
+  background: url("../images/head/downApp.png") no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  .closeBtn{
+    flex: 1;
+    padding-left: $value0_6;
+    visibility: hidden;
+    i{
+      color: $closeBtn;
+      font-size: 1.2rem;
     }
+  }
+  .downAppBtn{
+    justify-content: center;
+    align-items: center;
+    text-align: right;
+    padding-right: $value1_8;
+    visibility: hidden;
+    a{
+      color: #fff;
+      border: solid 1px #fff;
+      border-radius: 0.6rem;
+      padding: 0.1rem 0.2rem;
+    }
+  }
+}
+.hotTitle{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 2rem;
+  position: relative;
+  .line{
+    width: 100%;
+    height: 2px;
+    background: #2b7ec2;
+    position: absolute;
+    top: 1rem;
+    left: 0;
+    z-index: -1;
+  }
+  h3{
+    color: #2b7ec2;
+    background: #fff;
+    padding: 0.1rem 0.2rem;
   }
 }

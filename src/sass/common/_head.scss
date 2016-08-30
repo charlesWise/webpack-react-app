@@ -4,20 +4,20 @@
     height: $value3_5;
     background-color: $headBgColor;
     @at-root {
-        .header {
+        .header{
             display: flex;
             flex-direction: row;
             height: 100%;
             justify-content: center;
             align-items: center;
-            .logo {
+            .logo{
                 flex: 1;
                 padding-left: $value0_5;
                 img{
                     width: 100%;
                 }
             }
-            .pullDownMore {
+            .pullDownMore{
                 flex: 1;
                 justify-content: center;
                 align-items: center;
@@ -31,5 +31,17 @@
                 }
             }
         }
+    }
+}
+.subHeader{
+    height: $value3;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: $subHeaderBgColor;
+    .title{
+        color: #fff;
+        font-size: $fontSize1;
     }
 }

@@ -10,12 +10,12 @@ class DownApp extends React.Component {
     constructor(...props) {
         super(...props);
     }
+
     render() {
         return (
             <section className="downAppWrap">
-                <div className="downApp">
-                    <img src="src/images/head/downApp.png" alt=""/>
-                </div>
+                <div className="closeBtn"><a href="javascript:;"><i className="fa fa-times-circle"></i></a></div>
+                <div className="downAppBtn"><a href="javascript:;">下载APP</a></div>
             </section>
         )
     }

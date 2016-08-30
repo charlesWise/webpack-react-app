@@ -50,12 +50,6 @@ module.exports = {
     },
     resolve: {
         extensions: ["", ".js", ".jsx", ".scss"]
-    },
-    devServer: {
-        hot: true,
-        progress: true,
-        colors: true,
-        inline: true
     }
 };
 
