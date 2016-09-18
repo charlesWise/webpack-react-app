@@ -14,7 +14,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 // Import Index
-import Index from './view/pages/Index/Index';
+// import Index from './view/pages/index/Index';
+import PaymentSuccess from './view/pages/account/Payment';
 
 // ReactDOM.render
-ReactDOM.render(<Index />, document.getElementById('app'));
+ReactDOM.render(<PaymentSuccess />, document.getElementById('app'));

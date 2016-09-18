@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "webpack-server": "webpack-dev-server --hot --progress --colors --inline",
+    "webpack-server": "webpack-dev-server --hot --progress --colors",
     "start": "npm run webpack-server"
   },
   "keywords": [

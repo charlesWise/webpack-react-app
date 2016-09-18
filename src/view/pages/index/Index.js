@@ -4,10 +4,10 @@
 'use strict';
 // Import React
 import React from 'react';
-import Head from '../../common/head';
-import SubHeader from '../../common/subHeader';
-import DownApp from './components/downApp';
-import Lists from './components/lists';
+import Head from '../../common/Head';
+import SubHeader from '../../common/SubHeader';
+import DownApp from './components/DownApp';
+import Lists from './components/Lists';
 
 // Create class called Index that extends the base React Component class
 class Index extends React.Component {
