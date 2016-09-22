@@ -1,154 +1,156 @@
 @charset "UTF-8";
+
 body{
   background: #F5F5F5
 }
 .paymentSuccessWrap{
-
-}
-.paymentSuccessWrap .headContent{
-  width: 100%;
-  height: 4rem;
-  line-height: 4rem;
-  border-bottom: 1px rgba(0,0,0,0.12) solid;
-  text-align: center;
-  background: #fff;
-}
-.paymentSuccessWrap .headContent h1{
-  font-size: 18px;
-  color: #000;
-  font-weight: 300;
-}
-.paymentSuccessWrap .successContent{
-  padding: 2.2rem 0;
-  border-bottom: 1px rgba(0,0,0,0.12) solid;
-  background: #fff;
-}
-.paymentSuccessWrap .successContent .doneTrading{
-  width: 54px;
-  height: 54px;
-  margin: 0 auto;
-}
-.paymentSuccessWrap .successContent .doneTrading img{
-  width: 100%;
-  height: 100%;
-}
-.paymentSuccessWrap h3{
-  margin-top: 0.8rem;
-  color: rgba(135,209,19,1);
-  font-size: 14px;
-  text-align: center;
-}
-.paymentSuccessWrap .insuranceContent{
-  display: block;
-  background: #fff;
-}
-.paymentSuccessWrap .insurance{
-  margin-left: 1.5rem;
-  padding: 1rem 0;
-  border-bottom: 1px rgba(0,0,0,0.12) solid;
-}
-.paymentSuccessWrap .insurance ul{
-  display: flex;
-  flex-direction: row;
-}
-.paymentSuccessWrap .insurance ul li{
-  line-height: 2.5rem;
-}
-.paymentSuccessWrap .insurance ul li:nth-child(1){
-  margin-right: 2rem;
-  width: 7rem;
-  color: rgba(0,0,0,0.6);
-  font-size: 14px;
-}
-.paymentSuccessWrap .insurance ul li:nth-child(2){
-  color: rgba(133,153,179,1);
-  font-size: 14px;
-}
-.paymentSuccessWrap .insurance ul li.blackFont{
-  color: rgba(0,0,0,1);
-}
-.paymentSuccessWrap .goDetailContent{
-  border-bottom: 1px rgba(0,0,0,0.12) solid;
-}
-.paymentSuccessWrap .goDetail{
-  margin-left: 1.5rem;
-  padding: 1rem 0;
-}
-.paymentSuccessWrap .goDetail dl{
-  display: flex;
-  flex-direction: row;
-}
-.paymentSuccessWrap .goDetail dl dd:nth-child(1){
-  color: rgba(50,157,255,1);
-  font-size: 13px;
-  font-weight: 300;
-}
-.paymentSuccessWrap .goDetail dl dd:nth-child(2){
-  flex: 1;
-  font-weight: 300;
-  text-align: right;
-  margin-right: 1.2rem;
-}
-.paymentSuccessWrap .goDetail dl dd:nth-child(2) a{
-  padding: 0.25rem 0.8rem;
-  border: 1px rgba(58,159,252,1) solid;
-  border-radius: 0.3rem;
-  font-size: 13px;
-  color: rgba(58,159,252,1)
-}
-.paymentSuccessWrap .tradeNumber{
-  border-top: 1px rgba(0,0,0,0.12) solid;
-  margin-top: 1rem;
-  background: #fff;
-  border-bottom: 1px rgba(0,0,0,0.12) solid;
-}
-.paymentSuccessWrap .tradeNumber .tradeBox{
-  margin-left: 1.5rem;
-}
-.paymentSuccessWrap .tradeNumber .tradeBox ul{
-  display: flex;
-  flex-direction: row;
-  height: 3.5rem;
-  line-height: 3.5rem;
-  vertical-align: middle;
-}
-.paymentSuccessWrap .tradeNumber .tradeBox ul:nth-child(1){
-  border-bottom: 1px rgba(0,0,0,0.12) solid;
-}
-.paymentSuccessWrap .tradeNumber .tradeBox ul li{
-  font-size: 14px;
-}
-.paymentSuccessWrap .tradeNumber .tradeBox ul li:nth-child(1){
-  color: rgba(0,0,0,0.6);
-  margin-right: 4.45rem;
-}
-.paymentSuccessWrap .tradeNumber .tradeBox ul li:nth-child(2){
-  color: rgba(0,0,0,1);
-}
-.paymentSuccessWrap .tips{
-  padding: 1.5rem 0;
-}
-.paymentSuccessWrap .tips p{
-  margin-left: 1.5rem;
-}
-.paymentSuccessWrap .viewButton{
-  text-align: center;
-}
-.paymentSuccessWrap .viewButton a{
-  display: block;
-  width: 90%;
-  height: 3.5rem;
-  line-height: 3.5rem;
-  margin: 0.8rem auto;
-  border-radius: 0.3rem;
-  font-size: 16px;
-}
-.paymentSuccessWrap .viewButton a:nth-child(1){
-  color: #fff;
-  background: rgba(50,157,255,1);
-}
-.paymentSuccessWrap .viewButton a:nth-child(2){
-  margin-top: 2rem;
-  border: 1px rgba(50,157,255,1) solid;
-  color: rgba(50,157,255,1);
+  .headContent{
+    width: 100%;
+    height: 4rem;
+    line-height: 4rem;
+    border-bottom: 1px rgba(0,0,0,0.12) solid;
+    text-align: center;
+    background: #fff;
+    h1{
+      font-size: 18px;
+      color: #000;
+      font-weight: 300;
+    }
+  }
+  .successContent{
+    padding: 2.2rem 0;
+    border-bottom: 1px rgba(0,0,0,0.12) solid;
+    background: #fff;
+    .doneTrading{
+      width: 54px;
+      height: 54px;
+      margin: 0 auto;
+      img{
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+  h3{
+    margin-top: 0.8rem;
+    color: rgba(135,209,19,1);
+    font-size: 14px;
+    text-align: center;
+  }
+  .insuranceContent{
+    display: block;
+    background: #fff;
+  }
+  .insurance{
+    margin-left: 1.5rem;
+    padding: 1rem 0;
+    border-bottom: 1px rgba(0,0,0,0.12) solid;
+    ul{
+      display: flex;
+      flex-direction: row;
+      li{
+        line-height: 2.5rem;
+        &:nth-child(1){
+          margin-right: 2rem;
+          width: 7rem;
+          color: rgba(0,0,0,0.6);
+          font-size: 14px;
+        }
+        &:nth-child(2){
+          color: rgba(133,153,179,1);
+          font-size: 14px;
+        }
+        &.blackFont{
+          color: rgba(0,0,0,1);
+        }
+      }
+    }
+  }
+  .goDetailContent{
+    border-bottom: 1px rgba(0,0,0,0.12) solid;
+  }
+  .goDetail{
+    margin-left: 1.5rem;
+    padding: 1rem 0;
+    dl{
+      display: flex;
+      flex-direction: row;
+      dd{
+        &:nth-child(1){
+          color: rgba(50,157,255,1);
+          font-size: 13px;
+          font-weight: 300;
+        }
+        &:nth-child(2){
+          flex: 1;
+          font-weight: 300;
+          text-align: right;
+          margin-right: 1.2rem;
+          a{
+            padding: 0.25rem 0.8rem;
+            border: 1px rgba(58,159,252,1) solid;
+            border-radius: 0.3rem;
+            font-size: 13px;
+            color: rgba(58,159,252,1)
+          }
+        }
+      }
+    }
+  }
+  .tradeNumber{
+    border-top: 1px rgba(0,0,0,0.12) solid;
+    margin-top: 1rem;
+    background: #fff;
+    border-bottom: 1px rgba(0,0,0,0.12) solid;
+    .tradeBox{
+      margin-left: 1.5rem;
+      ul{
+        display: flex;
+        flex-direction: row;
+        height: 3.5rem;
+        line-height: 3.5rem;
+        vertical-align: middle;
+        &:nth-child(1){
+          border-bottom: 1px rgba(0,0,0,0.12) solid;
+        }
+        li{
+          font-size: 14px;
+          &:nth-child(1){
+            color: rgba(0,0,0,0.6);
+            margin-right: 4.45rem;
+          }
+          &:nth-child(2){
+            color: rgba(0,0,0,1);
+          }
+        }
+      }
+    }
+  }
+  .tips{
+    padding: 1.5rem 0;
+    p{
+      margin-left: 1.5rem;
+    }
+  }
+  .viewButton{
+    text-align: center;
+    a{
+      display: block;
+      width: 90%;
+      height: 3.5rem;
+      line-height: 3.5rem;
+      margin: 0.8rem auto;
+      border-radius: 0.3rem;
+      font-size: 16px;
+      &:nth-child(1){
+        color: #fff;
+        background: rgba(50,157,255,1);
+      }
+      &:nth-child(2){
+        margin-top: 2rem;
+        border: 1px rgba(50,157,255,1) solid;
+        color: rgba(50,157,255,1);
+      }
+    }
+  }
 }

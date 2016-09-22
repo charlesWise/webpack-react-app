@@ -11,11 +11,15 @@ import './sass/global';
 
 // Import React and JS
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { render } from 'react-dom';
+import { Router, browserHistory } from 'react-router'
+
+import routes from './js/routers/Routes'
 
 // Import Index
-// import Index from './view/pages/index/Index';
-import PaymentSuccess from './view/pages/account/Payment';
+import Index from './view/pages/index/Index';
 
-// ReactDOM.render
-ReactDOM.render(<PaymentSuccess />, document.getElementById('app'));
+// render
+render(
+    <Router routes={routes} history={browserHistory}/>,
+    document.getElementById('app'));

@@ -4,6 +4,7 @@
 'use strict';
 // Import React
 import React from 'react';
+import { Link } from 'react-router'
 
 // Create class called Lists that extends the base React Component class
 class Lists extends React.Component {
@@ -23,7 +24,7 @@ class Lists extends React.Component {
                         <li>
                             <dl>
                                 <dt>
-                                    日益升日益升日益升日益升
+                                    <Link to="/App">About</Link>
                                 </dt>
                                 <dd></dd>
                             </dl>
