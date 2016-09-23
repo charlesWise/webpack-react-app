@@ -7,8 +7,8 @@ import React from 'react';
 
 // Create class called Index that extends the base React Component class
 class DownApp extends React.Component {
-    constructor(...props) {
-        super(...props);
+    constructor(props) {
+        super(props);
     }
 
     render() {

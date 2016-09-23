@@ -67,8 +67,8 @@ class PaymentSuccess extends React.Component {
                     <p>纸质保单将在3个工作日内将寄到指定地址</p>
                 </section>
                 <section className="viewButton">
-                    <Link activeClassName="link" to="/">查看保单</Link>
-                    <Link activeClassName="link" to="/index">返回首页</Link>
+                    <Link activeClassName="link" to="">查看保单</Link>
+                    <Link activeClassName="link" to="/">返回首页</Link>
                 </section>
             </section>
         )

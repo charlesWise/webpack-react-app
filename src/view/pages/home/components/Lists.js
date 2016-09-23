@@ -8,8 +8,8 @@ import { Link } from 'react-router'
 
 // Create class called Lists that extends the base React Component class
 class Lists extends React.Component {
-    constructor(...props) {
-        super(...props);
+    constructor(props) {
+        super(props);
     }
 
     render() {
@@ -24,7 +24,7 @@ class Lists extends React.Component {
                         <li>
                             <dl>
                                 <dt>
-                                    <Link to="/">Payment</Link>
+                                    <Link to="/payment">Payment</Link>
                                 </dt>
                                 <dd></dd>
                             </dl>

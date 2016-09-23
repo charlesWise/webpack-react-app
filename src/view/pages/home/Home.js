@@ -9,10 +9,10 @@ import SubHeader from '../../common/SubHeader';
 import DownApp from './components/DownApp';
 import Lists from './components/Lists';
 
-// Create class called Index that extends the base React Component class
-class Index extends React.Component {
-    constructor(...props) {
-        super(...props);
+// Create class called Home that extends the base React Component class
+class Home extends React.Component {
+    constructor(props) {
+        super(props);
     }
 
     render() {
@@ -26,4 +26,4 @@ class Index extends React.Component {
         )
     }
 }
-export default Index;
+export default Home;
