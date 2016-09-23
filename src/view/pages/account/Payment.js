@@ -4,6 +4,7 @@
 'use strict';
 // Import React
 import React from 'react';
+import { Link } from 'react-router';
 
 // Create class called PaymentSuccess that extends the base React Component class
 class PaymentSuccess extends React.Component {
@@ -44,7 +45,7 @@ class PaymentSuccess extends React.Component {
                         <div className="goDetail">
                             <dl>
                                 <dd>恭喜！你的风险防御力提高5分！</dd>
-                                <dd><a href="javascript:;">详情</a></dd>
+                                <dd><Link activeClassName="link">详情</Link></dd>
                             </dl>
                         </div>
                     </div>
@@ -66,8 +67,8 @@ class PaymentSuccess extends React.Component {
                     <p>纸质保单将在3个工作日内将寄到指定地址</p>
                 </section>
                 <section className="viewButton">
-                    <a href="javascript:;">查看保单</a>
-                    <a href="javascript:;">返回首页</a>
+                    <Link activeClassName="link" to="/">查看保单</Link>
+                    <Link activeClassName="link" to="/Payment">返回首页</Link>
                 </section>
             </section>
         )

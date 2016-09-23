@@ -86,7 +86,7 @@ body{
           font-weight: 300;
           text-align: right;
           margin-right: 1.2rem;
-          a{
+          .link{
             padding: 0.25rem 0.8rem;
             border: 1px rgba(58,159,252,1) solid;
             border-radius: 0.3rem;
@@ -134,7 +134,7 @@ body{
   }
   .viewButton{
     text-align: center;
-    a{
+    .link{
       display: block;
       width: 90%;
       height: 3.5rem;
