@@ -68,7 +68,7 @@ class PaymentSuccess extends React.Component {
                 </section>
                 <section className="viewButton">
                     <Link activeClassName="link" to="/">查看保单</Link>
-                    <Link activeClassName="link" to="/Payment">返回首页</Link>
+                    <Link activeClassName="link" to="/index">返回首页</Link>
                 </section>
             </section>
         )

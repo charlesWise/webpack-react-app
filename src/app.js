@@ -16,10 +16,7 @@ import { Router, hashHistory  } from 'react-router'
 
 import routes from './js/routers/Routes'
 
-// Import Index
-import Index from './view/pages/index/Index';
-
 // render
 render(
-    <Router routes={routes} history={hashHistory}/>,
+    <Router routes={routes} history={hashHistory} />,
     document.getElementById('app'));

@@ -24,7 +24,7 @@ class Lists extends React.Component {
                         <li>
                             <dl>
                                 <dt>
-                                    <Link to="/Payment">返回首页</Link>
+                                    <Link to="/">Payment</Link>
                                 </dt>
                                 <dd></dd>
                             </dl>

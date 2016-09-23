@@ -1,5 +1,5 @@
 module.exports = {
-    entry: getEntrySources(['./src/app.js']),
+    entry: getEntrySources(['./src/App.js']),
     output: {
         publicPath: 'http://localhost:8080/',
         filename: 'build/bundle.js'
@@ -54,7 +54,6 @@ module.exports = {
 };
 
 function getEntrySources(sources) {
-    console.log(process.env.NODE_ENV);
     if (process.env.NODE_ENV !== 'production') {
         sources.push('webpack-dev-server/client?http://localhost:8080');
     }
