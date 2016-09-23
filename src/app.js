@@ -12,7 +12,7 @@ import './sass/global';
 // Import React and JS
 import React from 'react';
 import { render } from 'react-dom';
-import { Router, browserHistory } from 'react-router'
+import { Router, hashHistory  } from 'react-router'
 
 import routes from './js/routers/Routes'
 
@@ -21,5 +21,5 @@ import Index from './view/pages/index/Index';
 
 // render
 render(
-    <Router routes={routes} history={browserHistory}/>,
+    <Router routes={routes} history={hashHistory}/>,
     document.getElementById('app'));
